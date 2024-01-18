@@ -8,7 +8,7 @@ public class Main {
 
 
 
-        System.out.println(solution1.solution("bananasss", "ana"));
+        System.out.println(solution1.solution("test", "ana"));
     }
 }
 
