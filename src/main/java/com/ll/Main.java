@@ -9,9 +9,9 @@ public class Main {
         System.out.println(solution1.solution("banana", "ana"));
         System.out.println(solution1.solution("apple", "ple"));
 
+        
     }
 }
-
 
 class Solution {
     public int solution(String my_string, String target) {
