@@ -3,26 +3,10 @@ package com.ll;
 public class Main {
     public static void main(String[] args) {
 
-        Solution solution1 = new Solution();
 
-        System.out.println(solution1.solution("tests1", "ana"));
-        System.out.println(solution1.solution("tests2", "ana"));
-        System.out.println(solution1.solution("tests3", "ana"));
-
-
+        System.out.println( " 안녕하세요 충돌테스트 중입니다 ");
+        
     }
 }
 
 
-class Solution {
-    public int solution(String my_string, String target) {
-        int answer = 0;
-
-        if (my_string.contains(target)){
-            answer++;
-        }
-
-
-        return answer;
-    }
-}
