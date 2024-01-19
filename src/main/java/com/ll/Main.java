@@ -5,9 +5,6 @@ public class Main {
 
         Solution solution1 = new Solution();
 
-
-
-
         System.out.println(solution1.solution("test", "ana"));
     }
 }
