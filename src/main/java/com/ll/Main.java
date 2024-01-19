@@ -6,6 +6,10 @@ public class Main {
         Solution solution1 = new Solution();
 
         System.out.println(solution1.solution("tests", "ana"));
+        System.out.println(solution1.solution("tests2", "ana"));
+        System.out.println(solution1.solution("tests3", "ana"));
+
+
     }
 }
 
