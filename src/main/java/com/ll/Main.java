@@ -5,7 +5,7 @@ public class Main {
 
         Solution solution  = new Solution();
 
-        int [] numbers = new int[] {34, 5, 71, 29, 100, 34};
+        int [] numbers = new int[] {34, 5, 71, 29, 100, 34 , 50 }; //50 추가
 
         int n = 123;
 
