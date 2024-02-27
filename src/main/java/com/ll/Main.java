@@ -5,29 +5,28 @@ public class Main {
 
         Solution solution  = new Solution();
 
-        int [] numbers = new int[] {34, 5, 71, 29, 100, 34 , 50 }; //50 추가
+        int [] num_list = new int[] {1,2,3,4,5 }; //50 추가
 
-        int n = 123;
+        int n = 3;
 
-        System.out.println(solution.solution(numbers , n));
+        System.out.println(solution.solution(num_list , n));
     }
 
 }
 
 class Solution {
-    public int solution(int[] numbers, int n) {
+    public int solution(int[] num_list, int n) {
         int answer = 0;
 
-        for (int i =0; i < numbers.length; i++) {
-            answer += numbers[i];
+        for (int i : num_list) {
 
-            if (answer > n) {
-                return answer;
-
+            if (i == n) {
+              return  1;
             }
-
         }
         return answer;
     }
 }
+
+
 
